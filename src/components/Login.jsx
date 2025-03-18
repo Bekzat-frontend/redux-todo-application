@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router";
-import { loginSuccess } from "../actions/authActions";
+import { loginSuccess } from "../actions/authAction";
 import styled from "styled-components";
 
 const Login = () => {
