@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router";
-import { addTodo, deleteAllTodos } from "../actions/todoActions";
-import { logout } from "../actions/authActions";
+import { logout } from "../actions/authAction";
+import { addTodo, deleteAllTodos } from "../actions/todoAction";
 import TodoItem from "./TodoItem";
 import styled from "styled-components";
 
